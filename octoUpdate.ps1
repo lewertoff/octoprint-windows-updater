@@ -1,5 +1,5 @@
-$venvPath = "C:\Octoprint\venv\" 
-$components = "pip", "octoprint"
+$venvPath = "C:\Octoprint\venv\" # Path to Octoprint venv
+$components = "pip", "octoprint" # Pip tries to update each of these
 
 function selfElevate {
 # Creates a new admin process if the current one is not admin level.
